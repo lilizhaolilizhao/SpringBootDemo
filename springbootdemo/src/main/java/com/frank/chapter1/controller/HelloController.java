@@ -18,10 +18,4 @@ public class HelloController {
         System.out.println("systemId====: " + systemId);
         return "Hello World!";
     }
-
-    @RequestMapping(method = RequestMethod.GET, value = "/api/v3/alert/applications/{userId}/polices")
-    public String index2(HttpServletRequest request, @PathVariable Long systemId){
-        System.out.println("systemId====: " + systemId);
-        return "Hello World!";
-    }
 }
